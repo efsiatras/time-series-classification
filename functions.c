@@ -34,7 +34,7 @@ double min(double x, double y, double z) { 							     /* Function to find the s
 }
 
 #ifdef REC
-double dtwrec(int n, int i, double A[], int j, double B[], 5int c) {	        /* Function to calculate the DTW distance between two time-series using Recursion */
+double dtwrec(int n, int i, double A[], int j, double B[], int c) {	        /* Function to calculate the DTW distance between two time-series using Recursion */
 	if ((i > 1 && i <= n) && (j > 1 && j <= n)) 							  /* Simple implemented algorithm, given by the excercise */
 		return d(A[i], B[j], i, j, c) + min(dtwrec(n, i-1, A, j, B, c), dtwrec(n, i, A, j-1, B, c), dtwrec(n, i-1, A, j-1, B, c));
 
