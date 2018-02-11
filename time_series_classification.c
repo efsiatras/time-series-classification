@@ -97,7 +97,7 @@ int main(int argc, char *argv[]) {
 		free(test);
 		free(test_class);
 
-		fprintf(stderr, "Error: Length of training set's time-series is different from the length of test set's time-series"); 					  /* Error */
+		fprintf(stderr, "Error: Length of training set's time-series is different from the length of test set's time-series\n"); 					  /* Error */
 
 		return 4;
 	}
