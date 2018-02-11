@@ -28,7 +28,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	else {																        /* If there are too many arguments */
-		fprintf(stderr, "Too many arguments");															  /* Error */
+		fprintf(stderr, "Too many arguments\n");															  /* Error */
 		return 3;
 	}
 
