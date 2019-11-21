@@ -1,5 +1,5 @@
 # Time Series Classification
-Classification of time series using Recursion and Dynamic Programming. 
+Classification of time series using Dynamic Time Warping algorithm with Recursion and Dynamic Programming.
 
 The program gets trained with datasets which belong to classes and the program predicts to which classes other datasets belong. It also prints error rate and CPU time.
 
