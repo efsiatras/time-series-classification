@@ -21,4 +21,4 @@ Examples with included train and test files:
 
 `$ ./cat train_FaceFour.txt test_FaceFour.txt | ./dtwdp 7`
 
-`$./cat train_ECG5000.txt test_ECG5000.txt | ./dtwdp 45 > /dev/null`
+`$ ./cat train_ECG5000.txt test_ECG5000.txt | ./dtwdp 45 > /dev/null`
