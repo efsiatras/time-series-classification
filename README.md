@@ -3,7 +3,7 @@ Classification of time series using Dynamic Time Warping algorithm with Recursio
 
 The program gets trained with datasets which belong to classes and the program predicts to which classes other datasets belong. It also prints error rate and CPU time.
 
-### Compilation
+## Compilation
 For implementation using Recursion:
 
 `$ gcc functions.c time_series_classification.c -o dtwrec`
@@ -12,7 +12,7 @@ For implementation using Dynamic Programming:
 
 `$ gcc -DREC functions.c time_series_classification.c -o dtwdp`
 
-### Usage
+## Usage
 `$ ./cat trainfile testfile | ./dtwrec limit > output`
 
 `$ ./cat trainfile testfile | ./dtwdp limit > output`
